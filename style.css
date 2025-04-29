@@ -1,8 +1,8 @@
 :root {
   --bg: #f3f0ff;
   --text: #1f1b2e;
-  --accent: #8e44ad;  /* Light purple accent color */
-  --accent-dark: #9b59b6;  /* Darker purple for hover effects */
+  --accent: #ffcc00;  /* Bright yellow accent color */
+  --accent-dark: #ffb300;  /* Darker yellow for hover effects */
   --white: #ffffff;
   --shadow: rgba(0, 0, 0, 0.08);
 
@@ -32,8 +32,8 @@ section {
 }
 
 #hero {
-  background: linear-gradient(to right, #8e44ad, #9b59b6);  /* Light purple gradient */
-  color: var(--white);  /* White text to stand out against light purple */
+  background: linear-gradient(to right, #5f7fd4, #70a1d9);  /* Soft blue gradient */
+  color: var(--white);  /* White text to stand out against the soft blue */
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -49,10 +49,11 @@ section {
 .hero-content h2 {
   font-size: 1.5rem;
   height: 2rem;
+  color: var(--accent);  /* Accent text (like Web Developer) will be yellow */
 }
 
 .highlight {
-  color: #ffdd57;
+  color: var(--accent);  /* Yellow for highlighting specific text */
 }
 
 .contact-links a {
