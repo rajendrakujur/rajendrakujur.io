@@ -32,8 +32,8 @@ section {
 }
 
 #hero {
-  background: linear-gradient(to right, #5f7fd4, #70a1d9);  /* Soft blue gradient */
-  color: var(--white);  /* White text to stand out against the soft blue */
+  background: #000000;  /* Black background */
+  color: var(--white);  /* White text to stand out against the black background */
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -49,7 +49,7 @@ section {
 .hero-content h2 {
   font-size: 1.5rem;
   height: 2rem;
-  color: var(--accent);  /* Accent text (like Web Developer) will be yellow */
+  color: var(--accent);  /* Accent text will be yellow */
 }
 
 .highlight {
@@ -160,4 +160,10 @@ body.dark-mode #projects {
 
 body.dark-mode .card a {
   color: var(--link-dark);
+}
+
+/* Specific Style for Open Source Contributor Section */
+#hero .hero-content h2 {
+  color: var(--white);  /* Change text color to white for better contrast */
+  font-weight: bold;
 }
