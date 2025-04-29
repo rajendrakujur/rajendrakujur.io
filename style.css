@@ -10,6 +10,7 @@
   --bg-dark: #121212; /* Dark background */
   --text-dark: #e0e0e0; /* Light text */
   --card-dark: #333333; /* Dark cards */
+  --link-dark: #a1c4e5; /* Light link color */
 }
 
 body {
@@ -148,4 +149,14 @@ footer {
 
 #darkToggle:hover {
   background: var(--accent-dark);
+}
+
+/* Dark Mode Adjustments for GitHub Projects Section */
+body.dark-mode #projects {
+  background: var(--card-dark); /* Dark background */
+  color: var(--text-dark); /* Light text */
+}
+
+body.dark-mode .card a {
+  color: var(--link-dark); /* Lighter link color */
 }
