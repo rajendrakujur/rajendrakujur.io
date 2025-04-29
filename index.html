@@ -5,9 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Your Name | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
 <body>
+
+  <!-- DARK MODE TOGGLE -->
+  <button id="darkToggle" title="Toggle dark mode">🌙</button>
 
   <!-- HERO -->
   <section id="hero">
@@ -22,14 +26,13 @@
     </div>
   </section>
 
-  <!-- ABOUT -->
-  <section class="module" id="about">
+  <!-- MODULES -->
+  <section class="module" id="about" data-aos="fade-up">
     <h2>About Me</h2>
     <p>I’m currently based in <strong>Your City, Country</strong>. Passionate about building dynamic web experiences.</p>
   </section>
 
-  <!-- EXPERIENCE -->
-  <section class="module" id="experience">
+  <section class="module" id="experience" data-aos="fade-up">
     <h2>Work Experience</h2>
     <ul>
       <li><strong>Frontend Developer</strong> at XYZ Corp – 2022–Present</li>
@@ -37,8 +40,7 @@
     </ul>
   </section>
 
-  <!-- EDUCATION -->
-  <section class="module" id="education">
+  <section class="module" id="education" data-aos="fade-up">
     <h2>Education</h2>
     <ul>
       <li><strong>Masters</strong> – Computer Science, XYZ University</li>
@@ -47,8 +49,7 @@
     </ul>
   </section>
 
-  <!-- PROJECTS -->
-  <section class="module" id="projects">
+  <section class="module" id="projects" data-aos="fade-up">
     <h2>GitHub Projects</h2>
     <div class="card">
       <h3>Awesome Portfolio</h3>
@@ -62,8 +63,7 @@
     </div>
   </section>
 
-  <!-- CERTIFICATIONS -->
-  <section class="module" id="certifications">
+  <section class="module" id="certifications" data-aos="fade-up">
     <h2>Certifications</h2>
     <ul>
       <li>Frontend Developer – Coursera</li>
@@ -71,17 +71,17 @@
     </ul>
   </section>
 
-  <!-- HOBBIES -->
-  <section class="module" id="hobbies">
+  <section class="module" id="hobbies" data-aos="fade-up">
     <h2>Hobbies & Treks</h2>
     <p>I enjoy hiking, photography, and exploring nature trails.</p>
   </section>
 
-  <!-- FOOTER -->
   <footer>
     <p>Made with ❤️ by Your Name &copy; 2025</p>
   </footer>
 
   <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
 </body>
 </html>
