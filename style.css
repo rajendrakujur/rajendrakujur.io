@@ -6,10 +6,10 @@
   --white: #ffffff;
   --shadow: rgba(0, 0, 0, 0.08);
 
-  /* Dark mode colors */
-  --bg-dark: #1a1625;
-  --text-dark: #f5f5f5;
-  --card-dark: #2d2940;
+  /* Updated Dark Mode Colors */
+  --bg-dark: #121212; /* Dark background */
+  --text-dark: #e0e0e0; /* Light text */
+  --card-dark: #333333; /* Dark cards */
 }
 
 body {
