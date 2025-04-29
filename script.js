@@ -1,9 +1,9 @@
-// Optional: Add interactivity or animations here
-document.querySelectorAll('.module').forEach(module => {
-  module.addEventListener('mouseenter', () => {
-    module.style.transform = 'translateY(-10px)';
-  });
-  module.addEventListener('mouseleave', () => {
-    module.style.transform = 'translateY(0)';
+// Typed.js effect
+document.addEventListener("DOMContentLoaded", () => {
+  new Typed(".typing", {
+    strings: ["Web Developer", "Open Source Contributor", "UI/UX Designer"],
+    typeSpeed: 80,
+    backSpeed: 40,
+    loop: true
   });
 });
