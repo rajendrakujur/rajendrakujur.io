@@ -1,7 +1,7 @@
 // Typed.js effect
  document.addEventListener("DOMContentLoaded", () => {
    new Typed(".typing", {
-     strings: ["Web Developer", "UI/UX Designer", "Open Source Contributor"],
+     strings: ["Data Scientist", "Software Engineer", "Avid Badminton 🏸 Player"],
      typeSpeed: 80,
      backSpeed: 40,
      loop: true
